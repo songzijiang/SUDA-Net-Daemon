@@ -14,7 +14,7 @@ chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-gpu')
 
 chrome = webdriver.Chrome(
-    executable_path='chromedriver.exe'
+    executable_path='chromedriver91.exe'
     , chrome_options=chrome_options)
 chrome.get(url)
 
