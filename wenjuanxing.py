@@ -35,7 +35,7 @@ def submit(num, n):
     number_input.send_keys(num)
     name_input.send_keys(n)
 
-    chrome.execute_script('arguments[0].click()', submit_bt)
+    # chrome.execute_script('arguments[0].click()', submit_bt)
     # ActionChains(driver=chrome).move_to_element(login_bt).click(login_bt)
     # login_bt.click()
 
